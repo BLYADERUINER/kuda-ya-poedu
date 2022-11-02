@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
-    <header class="header page__header"></header>
+    <header class="header page__header">
+      <nav class="header__navigation">
+        <a class="header__link" href="#intro">Мечты</a>
+        <a class="header__link" href="#places">Ожидания</a>
+        <a class="header__link" href="#opinion">Реальность</a>
+      </nav>
+      <a class="header__link" href="#" target="_blank">Пожаловаться</a>
+    </header>
     <main class="content page__content">
-      <section class="intro content__intro"></section>
-      <section class="places content__places"></section>
+      <section class="intro content__intro" id="intro"></section>
+      <section class="places content__places" id="places"></section>
       <section
         class="opinion content__opinion"
         aria-label="Секция со статьей: Что говорят и говорили люди о путешествиях"
+        id="opinion"
       >
         <article class="opinion__article"></article>
       </section>
