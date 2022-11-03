@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Куда я поеду</title>
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./pages/index.css"/>
   </head>
+
   <body class="page">
     <header class="header page__header">
       <nav class="header__navigation">
@@ -15,6 +16,7 @@
       </nav>
       <a class="header__link" href="#" target="_blank">Пожаловаться</a>
     </header>
+
     <main class="content page__content">
       <section class="intro content__intro" id="intro">
         <div class="intro__text">
@@ -30,14 +32,51 @@
         />
       </section>
       <section class="places content__places" id="places"></section>
-      <section
-        class="opinion content__opinion"
-        aria-label="Секция со статьей: Что говорят и говорили люди о путешествиях"
-        id="opinion"
-      >
-        <article class="opinion__article"></article>
+      <section class="opinion content__opinion"
+               aria-label="Секция со статьей: Что говорят и говорили люди о путешествиях"
+               id="opinion">
+        <article class="opinion__article">
+          <p class="opinion__subtitle">люди</p>
+          <h2 class="opinion__title">Что говорят и говорили люди о путешествиях</h2>
+          <div class="opinion__quote-container">
+
+            <figure class="article__item">
+              <figcaption class="opinion__author">Иван Бунин</figcaption>
+              <blockquote class="opinion__blockquote">
+                Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность путешествовать.
+              </blockquote>
+            </figure>
+
+            <figure class="article__item">
+              <figcaption class="opinion__author">Альбер Камю</figcaption>
+              <blockquote class="opinion__blockquote">
+                Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.
+              </blockquote>
+            </figure>
+
+            <figure class="article__item">
+              <figcaption class="opinion__author">Норвежская пословица</figcaption>
+              <blockquote class="opinion__blockquote">
+                Лишь тот, кто странствует, открывает новые пути.
+              </blockquote>
+            </figure>
+
+            <figure class="article__item">
+              <figcaption class="opinion__author">Мария Захарова</figcaption>
+              <blockquote class="opinion__blockquote">
+                В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее и&nbsp;очень рискованное
+                предприятие.
+              </blockquote>
+            </figure>
+            
+          </div>
+        </article>
       </section>
     </main>
-    <footer class="footer page__footer"></footer>
+    <footer class="footer page__footer">
+      <p class="footer__copyright ">
+        © 2022
+      </p>
+    </footer>
   </body>
 </html>

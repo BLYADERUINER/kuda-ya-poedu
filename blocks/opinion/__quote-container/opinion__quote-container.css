@@ -1,0 +1,7 @@
+.opinion__quote-container{
+  margin: 0 0;
+  box-sizing: border-box;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
