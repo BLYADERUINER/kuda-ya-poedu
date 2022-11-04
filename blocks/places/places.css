@@ -1,3 +1,4 @@
 .places {
-
+  display: grid;
+  gap: 0;
 }
