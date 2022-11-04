@@ -27,9 +27,13 @@
 /* Places */
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__paragraphs/places__paragraphs.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__title/places__title.css);
+
+/* Place */
+@import url(../blocks/place/place.css);
 
 /* Opinion */
 @import url(../blocks/opinion/opinion.css);
@@ -46,3 +50,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
+.border{
+  border: red solid 1px;
+}

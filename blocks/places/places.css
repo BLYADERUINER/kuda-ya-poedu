@@ -3,5 +3,4 @@
   background-color: #f2f2f2;
   font-family: "Inter", Arial, sans-serif;
   display: grid;
-  grid-template-columns: repeat(2, minmax(auto, 640px));
 }
