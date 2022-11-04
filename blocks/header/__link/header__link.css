@@ -9,6 +9,11 @@
   padding: 0;
 }
 
+.header__link:hover {
+  color: #fecda7;
+  text-decoration: underline;
+}
+
 .header__link:last-child {
   margin-right: 0;
 }

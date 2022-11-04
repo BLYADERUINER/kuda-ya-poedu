@@ -43,13 +43,11 @@
 @import url(../blocks/opinion/__blockquote/opinion__blockquote.css);
 @import url(../blocks/opinion/__quote-container/opinion__quote-container.css);
 @import url(../blocks/opinion/__subtitle/opinion__subtitle.css);
-
-@import url(../blocks/article/__item/article__item.css);
+@import url(../blocks/opinion/__figure/opinion__figure.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-.border{
-  border: red solid 1px;
-}
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__author-link/footer__author-link.css);
+@import url(../blocks/footer/__author-link/_color/footer__author-link_color.css);
