@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 1.1;
+  text-rendering: optimizeLegibility;
   text-transform: uppercase;
   color: #fecda7;
   padding: 0;

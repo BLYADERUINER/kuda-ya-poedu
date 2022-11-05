@@ -1,5 +1,6 @@
 .opinion__author{
   margin-bottom: 24px;
+  text-rendering: optimizeLegibility;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
