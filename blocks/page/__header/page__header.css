@@ -2,3 +2,15 @@
   margin: 0 65px;
   padding: 0;
 }
+
+@media screen and (max-width: 968px) {
+  .page__header {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .page__header {
+    margin: 0 16px;
+  }
+}

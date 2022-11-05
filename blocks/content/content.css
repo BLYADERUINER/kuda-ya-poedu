@@ -2,3 +2,9 @@
   display: grid;
   grid-row-gap: 150px;
 }
+
+@media screen and (max-width: 782px) {
+  .content {
+    grid-row-gap: 80px;
+  }
+}

@@ -6,3 +6,21 @@
   justify-items: center;
   grid-template-columns: minmax(auto, 720px) minmax(auto, 560px);
 }
+
+@media screen and (max-width: 984px) {
+  .intro {
+    grid-template-columns: minmax(auto, 620px) minmax(auto, 460px);
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .intro {
+    grid-template-columns: minmax(auto, 620px);
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .intro {
+    grid-template-columns: minmax(560px, auto);
+  }
+}
