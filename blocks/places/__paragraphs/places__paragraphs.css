@@ -1,2 +1,9 @@
 .places__paragraphs{
+  max-width: 420px;
+}
+
+@media screen and (max-width: 968px){
+  .places__paragraphs{
+    max-width: 100%;
+  }
 }
