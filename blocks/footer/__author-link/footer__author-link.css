@@ -1,5 +1,6 @@
 .footer__author-link {
   color: #000;
+  font-weight: 500;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -7,4 +8,10 @@
 
 .footer__author-link:hover {
   color: rgb(255, 0, 144);
+}
+
+@media screen and (max-width: 568px) {
+  .footer__author-link {
+    font-size: 12px;
+  }
 }
