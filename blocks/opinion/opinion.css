@@ -1,16 +1,3 @@
 .opinion {
   font-family: "Inter", Arial, sans-serif;
-  padding: 0 65px;
-}
-
-@media screen and (max-width: 968px){
-  .opinion{
-    padding: 0 24px;
-  }
-}
-
-@media screen and (max-width: 568px){
-  .opinion{
-    padding: 0 16px;
-  }
 }

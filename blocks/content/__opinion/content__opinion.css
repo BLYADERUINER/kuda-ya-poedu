@@ -1,3 +1,16 @@
-.content__opinion{
+.content__opinion {
+
   padding: 0 65px;
+}
+
+@media screen and (max-width: 968px){
+  .content__opinion{
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 568px){
+  .content__opinion{
+    padding: 0 16px;
+  }
 }
