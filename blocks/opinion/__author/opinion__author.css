@@ -5,3 +5,9 @@
   font-size: 12px;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 984px){
+  .opinion__author{
+    margin-bottom: 12px;
+  }
+}
