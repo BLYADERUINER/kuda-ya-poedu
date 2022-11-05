@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 782px) {
   .intro__image {
-    min-width: 100%;
+    min-width: 520px;
     margin-top: 25px;
   }
 }
@@ -17,5 +17,6 @@
 @media screen and (max-width: 568px) {
   .intro__image {
     max-height: 300px;
+    min-width: 100%;
   }
 }

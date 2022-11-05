@@ -17,10 +17,15 @@
   }
 }
 
+@media screen and (max-width: 782px) {
+  .places__text {
+    max-width: 520px;
+  }
+}
+
 @media screen and (max-width: 562px){
   .places__text{
     margin: 16px 16px;
-    max-width: 520px;
   }
 }
 

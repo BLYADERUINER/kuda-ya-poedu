@@ -12,6 +12,7 @@
   .intro__title {
     font-size: 28px;
     padding-right: 10px;
+    max-width: 520px;
   }
 }
 
