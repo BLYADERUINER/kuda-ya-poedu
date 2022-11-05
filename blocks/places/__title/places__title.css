@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 782px){
   .places__title{
     margin-bottom: 32px;
     font-size: 24px;
