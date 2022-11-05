@@ -1,5 +1,5 @@
 .header__link {
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.2;
@@ -9,6 +9,18 @@
   padding: 0;
 }
 
+@media screen and (max-width: 782px) {
+  .header__link {
+    margin-right: 23px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .header__link {
+    margin-right: 18px;
+  }
+}
+
 .header__link:hover {
   color: #fecda7;
   text-decoration: underline;
@@ -16,4 +28,5 @@
 
 .header__link:last-child {
   margin-right: 0;
+  padding-top: 5px;
 }

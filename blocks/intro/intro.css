@@ -15,12 +15,13 @@
 
 @media screen and (max-width: 782px) {
   .intro {
+    justify-content: center;
     grid-template-columns: minmax(auto, 620px);
   }
 }
 
 @media screen and (max-width: 568px) {
   .intro {
-    grid-template-columns: minmax(560px, auto);
+    grid-template-columns: minmax(auto, 560px);
   }
 }
