@@ -15,3 +15,9 @@
     margin-bottom: 18px;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .intro__subtitle {
+    margin-left: 16px;
+  }
+}
